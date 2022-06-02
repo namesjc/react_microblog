@@ -3,7 +3,7 @@ import Posts from '../components/Posts';
 
 export default function FeedPage() {
     return (
-        <Body>
+        <Body sidebar={true}>
             <Posts />
         </Body>
     );
